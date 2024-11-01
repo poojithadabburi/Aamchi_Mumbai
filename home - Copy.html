@@ -1,0 +1,653 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Travel website</title>
+ </head>
+ <body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#" class="logo">Aamchi Mumbai</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#map">MAP</a></li>
+            <li><a href="#tour">TOUR</a></li>
+            <li><a href="#fare">FARE</a></li>
+            <li><a href="./add_post.php">REVIEW</a></li>
+        </ul>
+       <a href="./index - Copy.html">
+        <div class="nav__btns">
+            <button class="btn">LOGIN</button>
+        </div>
+       </a>
+    </nav>
+    <header id="home">
+        <div class="header__container">
+            <div class="header__content">
+                <p>"Mumbai: where tradition and modernity dance in vibrant harmony."</p>
+                 <h1>Let's Plan Your Own Travel !</h1>
+                    <a href="#map">
+                        <div class="header__btns">
+                            <button class="btn">PLAN IT</button>
+                    </a>
+                    </button>
+                </div>
+            </div>
+            <div class="header__image">
+                <img src="./images/file.png" alt="header"/>
+            </div>
+        </div>
+    </header>
+    <section class="section__container destination__container" id="about"> 
+        <h2 class="section__header">Mumbai's Culture & Street Food</h2>
+        <p class="section__description">
+            "Savoring Mumbai: A Taste of Culture and Street Food"
+        </p>
+        <div class="destination__grid">
+            <div class="destination__card">
+                <img src="./images/arts.jpg" alt="arts & theater"/>
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Theater and Arts</h4>
+                        <p>Experience the vibrant theater scene in areas like Kala Ghoda, known for its galleries and cultural festivals.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.8
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./images/festival.jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Festivals</h4>
+                        <p>From Ganesh Chaturthi to Diwali, Mumbai's celebrations are a spectacle of colors and traditions.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.9
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./images/Mumbai Bollywood Studio Tour.jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Bollywood</h4>
+                        <p>Explore the glitz of Bollywood with studio tours or catch a live shoot.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.7
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/vadapav.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Vada Pav</h4>
+                        <p>The iconic Mumbai burger, a spiced potato fritter in a bun, best enjoyed with chutney.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.9
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./images/pavbhaji.jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Pav Bhaji</h4>
+                        <p> A rich vegetable mash served with buttered bread rolls.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.8
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./images/download (3).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Pani Puri</h4>
+                        <p>Crispy puris filled with spiced water, a must-try for spice lovers.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.9
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./images/download (4).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Dabeli</h4>
+                        <p>FA spicy potato filling in a bun, topped with pomegranate seeds.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.2
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./images/download (5).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Misal Pav</h4>
+                        <p>A spicy lentil curry served with bread, perfect for breakfast or a snack.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.4
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./images/download (5).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <h4>Ice Gola</h4>
+                        <p>Shaved ice drizzled with flavored syrups, a refreshing treat in the heat.</p>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="map">
+        <h2 class="section__header">Maps</h2>
+
+        <div class="maps-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345092673!2d144.95592831531566!3d-37.8172099797516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f4c2c99%3A0x5045675218ceed30!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1620124354881!5m2!1sen!2sau"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"></iframe>
+        </div>
+    </section>
+    <section class="section__container destination__container" id="tour">  
+        <h2 class="section__header">Popular Destination</h2>
+        <p class="section__description">
+            "Mumbai's popular spots are a symphony of history and modernity, where every landmark echoes the vibrant spirit of the city."
+        </p>
+        <div class="destination__grid">
+            <div class="destination__card">
+                <img src="./images/download (6).jpg" alt="arts & theater"/>
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/gateway_of_india (1) - Copy.html"><h4>Gateway of India </h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.9
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/csmt station.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                       <a href="./info/csmt - Copy.html"> <h4>Chhatrapati Shivaji Maharaj Terminus</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.8
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/marine.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                     <a href="./info/marine.html">  <h4>Marine Drive</h4></a> 
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.7
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/juhu.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/juhu - Copy.html"><h4>Juhu Beach</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.4
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/csmt.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/sangralay.html"><h4>Chhatrapati Shivaji Maharaj Vastu Sangrahalaya </h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.6
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/elephanta.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/elephanta - Copy.html"><h4>Elephanta Caves</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.3
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/colaba.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/colaba - Copy.html"><h4>Colaba Causeway</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.5
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/hajiali.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                       <a href="./info/hajiali - Copy.html"> <h4>Haji Ali Dargah </h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.4
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/sanjeev.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/sanjay.html"><h4>Sanjay Gandhi National Park</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.3
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/Bandra-Worli-Sea-Link.jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/bandra - Copy.html"><h4>Bandra-Worli Sea Link</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.8
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/download (8).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/bandrafort - Copy.html"><h4>Bandra Fort </h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.4
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/download (9).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/worli.html"><h4>Worli Village</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.3
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/tank.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/banganga - Copy.html"><h4>Banganga Tank</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.2
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/knesset.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/knesset - Copy.html"><h4>Knesset Eliyahoo Synagogue</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.6
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/download (10).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/filmcity - Copy.html"><h4>Mumbai Film City</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.3
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/chorbazar.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/chor bazaar - Copy.html"><h4>Chor Bazaar</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.4
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/nehru.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/nehru.html"><h4>Nehru Science Centre</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.3
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/download (11).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/iskcon - Copy.html"><h4>ISKCON Temple</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.7
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <h2 class="section__header">To Explore Destination</h2>
+        <p class="section__description">
+            "Discover the hidden gems of Mumbai, where each lesser-known corner reveals a unique tale, inviting you to experience the city’s soul beyond the spotlight."
+        </p>
+        <div class="destination__grid">
+            <div class="destination__card">
+                <img src="./img/flamingo.png" alt="arts & theater"/>
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/sewri mudflats.html"><h4>Sewri Mudflats</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.9
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/khitachiwadi.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/Khotachiwadi - Copy.html"><h4>Khotachiwadi </h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.2
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/download (12).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/Beach - Copy.html"><h4>Versova Beach </h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.3
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/download (13).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/mahim.html"><h4>Mahim Nature Park</h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.5
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/global.png" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                       <a href="./info/wadala.html"> <h4>Wadala’s Global Vipassana Pagoda </h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.6
+                    </div>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="./img/download (14).jpg" alt="festival" >
+                <div class="destination__card__details">
+                    <div>
+                        <a href="./info/mahalaxmi.html"><h4>Mahalaxmi Racecourse </h4></a>
+                    </div>
+                    <div class="destination__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                         4.3
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="section__container journey__container" id="fare">
+        <h2 class="section__header">Easy Reservations, One Click Away</h2>
+        <p class="section__description">
+            Effortless Planningfor your next travel.
+        </p>
+        <div class="journey__grid">
+            <div class="journey__card">
+                <div class="journey__card__bg">
+                    <span><i class="ri-train-line"></i></span>
+                    <h4>Local Trains</h4>
+                </div>
+                <div class="journey__card__content">
+                    <span><i class="ri-train-line"></i></span>
+                    <h4>Local Trains</h4>
+                    <p>Experience the lifeline of Mumbai with easy access to local trains. With just one click, you can check schedules, routes, and ticket availability, making your commute seamless and efficient.</p>
+                </div>
+            </div>
+            <div class="journey__card">
+                <div class="journey__card__bg">
+                    <span><i class="ri-e-bike-fill"></i></span>
+                    <h4>Autos</h4>
+                </div>
+                <div class="journey__card__content">
+                    <span><i class="ri-e-bike-fill"></i></span>
+                    <h4>Autos</h4>
+                    <p>Need a quick ride? Booking an auto rickshaw in Mumbai is just a tap away, but you don't necessarily need to book one in advance. Simply hail one on the street and enjoy the convenience of selecting your pickup and drop-off points.</p>
+                </div>
+            </div>
+            <div class="journey__card">
+                <div class="journey__card__bg">
+                    <span><i class="ri-taxi-fill"></i></i></span>
+                    <h4>Cabs</h4>
+                </div>
+                <div class="journey__card__content">
+                    <span><i class="ri-taxi-fill"></i></i></span>
+                    <h4>Cabs</h4><p>Traveling around Mumbai is easy! Book a cab with one click or flag one down as you explore. Choose your ride, confirm your booking, and enjoy comfort and style without the hassle of advance reservations!</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Fare Estimation - Mumbai</h1>
+            <label for="distance">Distance (in km):</label>
+            <input type="number" id="distance" placeholder="Enter distance" required>
+        
+            <label for="vehicle">Select Vehicle:</label>
+            <select id="vehicle">
+                <option value="cab">Cab</option>
+                <option value="rickshaw">Rickshaw</option>
+            </select>
+            <br>
+            <br>
+            <button class="btn" onclick="calculateFare()">Calculate Fare</button>
+        
+            <div class="result" id="result"></div>
+        </div>
+        <br><br>
+        <div class="train">
+        <a href="https://www.utsonmobile.indianrail.gov.in/login;id=972DC9D79511E9C469ED16943C86471D?0">
+                <button class="btn">Book train ticket</button>
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.mobond.mindicator&hl=en_IN">
+            <button class="btn">Check train timings </button>
+    </a>
+
+        </div>
+    </section>        
+    <section class="section__container discover__container">
+        <h2 class="section__header">
+            <br>
+            <br>
+            Discover Mumbai
+        </h2>
+        <p class="section__description">
+            Experience breathtaking view and unique perspective.
+        </p>
+        <div class="discover__grid">
+            <div class="discover__card">
+                <span><i class="ri-road-map-fill"></i></span>
+                <h4>Vibrant City Lights</h4>
+                <p>Marvel at Mumbai's dazzling city lights as they twinkle against the night sky, transforming the metropolis into a vibrant spectacle that captures the essence of its lively spirit.</p>
+            </div>
+            <div class="discover__card">
+                <span><i class="ri-ship-fill"></i></span>
+                <h4>Coastal Serenity</h4>
+                <p>Experience the tranquil beauty of Mumbai’s coastline, where the azure waves meet golden sands, providing a perfect escape from the city's hustle and bustle.
+
+                </p>    
+            </div>
+            <div class="discover__card">
+                <span><i class="ri-community-fill"></i></span>
+                <h4>Cultural Kaleidoscope</h4>
+                <p>Explore the rich tapestry of Mumbai's neighborhoods, each brimming with diverse cultures, vibrant street art, and colorful markets that reflect the city’s dynamic spirit.
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="contact">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Aamchi Mumbai</a>
+                </div>
+                <p>Experience the vibrant spirit of Mumbai, where tradition meets modernity. From bustling streets to serene beaches, indulge in street food, explore historic landmarks, and enjoy the lively arts scene. Your unforgettable adventure in this dynamic metropolis starts here!</p>
+                <ul class="footer__socials">
+                    <li>
+                      <a href="#"><i class="ri-facebook-fill"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ri-youtube-line"></i></a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Quick Links</h4>
+                <ul class="footer__links">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#map">Map</a></li>
+                  <li><a href="#tour">Tour</a></li>
+                  <li><a href="#fare">Fare</a></li>
+                  <li><a href="./add_post.php">Review</a></li>
+                </ul>
+              </div>
+              <div class="footer__col">
+                <h4>Contact Us</h4>
+                <ul class="footer__links">
+                  <li>
+                    <a href="#">
+                      <span><i class="ri-phone-fill"></i></span> +91 9619535044
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span><i class="ri-record-mail-line"></i></span> info@aamchimumbai
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span><i class="ri-map-pin-2-fill"></i></span> Khoparkhairne, India
+                    </a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+        <div class="footer__bar">
+            Copyright © 2024 Aamchi Mumbai. All rights reserved.
+          </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+ </body>
+ </html>
